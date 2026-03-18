@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +14,6 @@
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <!-- 상단 내비게이션 -->
     <nav class="top-nav">
       <span class="nav-logo">My Page</span>
       <ul class="nav-links">
@@ -25,90 +24,135 @@
       </ul>
     </nav>
 
-    <!-- 프로필 히어로 -->
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.png" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>지오</h1>
+          <p class="tagline">안녕하세요. 프론트엔드 8기 지오라고 합니다.</p>
         </div>
       </div>
     </section>
 
     <main>
-      <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p>
+          안녕하세요. 우아한테그코스 프론트엔드 8기를 이수하고 있는 지오라고
+          합니다.<br />
+          이번 과정을 진행하면서 이루고자 하는 목표는 좋은 개발자가 되는 것이
+          목표입니다.<br />
+          <a href="https://github.com/JuHyeong424"
+            ><img
+              src="./images/github.png"
+              alt="깃허브 로고"
+              style="width: 24px; margin: 4px"
+          /></a>
+          <a href="https://j-brothers.tistory.com/"
+            ><img
+              src="./images/blog.png"
+              alt="블로그 로고"
+              style="width: 24px; margin: 4px"
+          /></a>
+        </p>
       </section>
 
-      <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>장주형</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>ISFJ</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>게임</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>라면</td>
           </tr>
         </table>
       </section>
 
-      <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">기억에 남는 여행지</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/galdae.png" alt="갈대밭" />
+          <img src="./images/fire.png" alt="불꽃놀이" />
+          <img src="./images/nika.png" alt="니카" />
+          <img src="./images/bluepond.png" alt="청의호수" />
+          <img src="./images/waterfall.png" alt="흰수염폭포" />
+          <img src="./images/flower.png" alt="꽃밭" />
+          <img src="/images/meta.png" alt="메타버스" />
+          <img src="/images/jeju.png" alt="제주도" />
+          <img src="/images/frog.png" alt="개구리" />
         </div>
       </section>
 
-      <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
         <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/zSWdZVtXT7E"
+                title="인터스텔라 공식 예고편"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>인터스텔라</h3>
+              <p>
+                우주라는 거대한 미지의 공간 속에서 피어나는 끈끈한 가족애를 다룬
+                영화입니다. 시공간을 초월하는 아버지와 딸의 사랑, 그리고 웅장한
+                한스 짐머의 OST가 어우러져 깊은 여운과 벅찬 감동을 선사합니다.
+                "우린 답을 찾을 거야, 늘 그랬듯이."
+                <br /><br />처음보면 이해가 안가지만 계속 생각나게 하는 영화.
+              </p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <img src="/images/Avengers.png" alt="어벤져스" />
+            </div>
+            <div class="work-info">
+              <h3>어벤져스: 엔드 게임</h3>
+              <p>
+                10년이 넘는 마블 시네마틱 유니버스의 대장정을 완벽하게 마무리한
+                작품입니다. "어벤져스 어셈블"을 외치는 순간의 전율과, 세상을
+                구하기 위한 영웅들의 숭고한 희생이 가슴을 먹먹하게 합니다.
+                "3000만큼 사랑해"라는 대사는 언제 들어도 눈물샘을 자극합니다.
+                <br /><br />어린 시절 보았던 영웅들의 마지막 완전체.
+              </p>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- TIL (Today I Learned) -->
       <section class="content-section" id="til">
         <h2>TIL</h2>
         <p class="section-desc">오늘 새롭게 배운 것들을 기록합니다.</p>
 
-        <!-- TIL 작성 폼 -->
         <form class="til-form" id="til-form">
           <div class="form-group">
             <label for="til-date">날짜</label>
@@ -116,11 +160,22 @@
           </div>
           <div class="form-group">
             <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
+            <input
+              type="text"
+              id="til-title"
+              name="title"
+              placeholder="학습 주제를 입력하세요"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            <textarea
+              id="til-content"
+              name="content"
+              placeholder="오늘 배운 내용을 정리해주세요"
+              required
+            ></textarea>
           </div>
           <div class="form-actions">
             <button type="submit">등록</button>
@@ -128,17 +183,17 @@
           </div>
         </form>
 
-        <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
         <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
           <article class="til-item">
             <time>2026-03-15</time>
             <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
+            <p>
+              header, nav, main, section, article, footer 등 시멘틱 태그의
+              역할과 사용법을 배웠다.
+            </p>
           </article>
         </div>
       </section>
-
     </main>
 
     <footer>
